@@ -1,7 +1,7 @@
 {
   "name": "test",
   "private": true,
-  "homepage": "https://pathan-irfan.github.io/irfan-Project/",
+  "homepage": "https://pathan-irfan.github.io/irfan-Project",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

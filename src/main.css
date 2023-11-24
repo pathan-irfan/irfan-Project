@@ -1,0 +1,284 @@
+.maiSection{
+    margin-top: 2%;
+    height: 130vh;
+    width: auto;
+}
+.BacgroundImageDiv{
+    border: 0.2px solid black ;
+    background-size: cover;
+    height:410px;
+    width: auto;
+    background-image: url('https://t3.ftcdn.net/jpg/02/72/82/76/360_F_272827654_0WRhY0088bBG7VW3tBCwA8yD0hudB4j1.jpg');
+}
+.inputDiv{
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+/* ////////////////////////////////footer //////////////////////////////////////////////////// */
+.footer{
+    margin-top: -6%;
+
+    height: 80px;
+    width: auto;
+    border: 1px solid black;
+    background-color: rgb(37, 52, 37)
+}
+.Copyright {
+    margin-top: 2%;
+    color: white;
+}
+/* ////////////////////////////////cardcss //////////////////////////////////////////////////// */
+
+.praSeven{
+    font-size: 1px;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.number{
+    margin: 5%;
+    font-size: 10px;
+}
+.IconAndBtnDiv{
+    display:flex;
+    flex-wrap:wrap ;
+    margin-top:3%;
+}
+.OrderNowBtn{
+    background-color: green;
+    margin-left: 60%;
+    border: none;
+    color: white;
+}
+.OrderNowBtn:hover{
+    background-color: white;
+    border: 2px solid orangered;
+
+}
+/* ////////////////////////////////preorder css //////////////////////////////////////////////////// */
+.openDivbtn{
+    height: 20px;
+    margin-left: 25%;
+    margin-top: 1%; 
+}
+.openAndPraDiv{
+    display:flex;
+    flex-wrap:wrap ;
+    margin-top:3%;
+}
+.pra{
+    margin-left: 1%;
+    margin-top: -1%;
+}
+.OrderNowBtn1{
+    background-color: rgba(33, 26, 172, 0.781);
+    margin-left: 55%;
+    border: none;
+    color: white;
+}
+.OrderNowBtn1:hover{
+    background-color: white;
+    border: 2px solid orangered;
+
+}
+/* ////////////////////////////////Search css //////////////////////////////////////////////////// */
+.SearchDiv{
+    border-radius: 10px ;
+    height:200px;
+    width:600px;
+    background-color:rgb(222, 180, 187);
+    margin-left: -2%;
+}
+.imgAndInputDiv{
+  display: flex;
+  flex-direction: column;
+}
+.SecondimgAndInputDiv{
+    height: 100px;
+    width: 120px;
+    background-color: white;
+    border-radius: 10px ;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.BackgroundImg{
+    height:30px;
+    margin-top:24%
+}
+.pTag1{
+    margin-left:33%;
+    margin-top:-19%;
+}
+.inputOne{
+    height:30px;
+    width:300px;
+    margin-left:33%;
+    margin-top:4%;
+    border-radius:10px;
+    border:none;
+    box-shadow:1px 1px 1px 1px black
+}
+.inputSecondDiv{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    border: 2px solid black ;
+    /* background-color: green; */
+    margin-top: 22%;
+    margin-left: -61%;
+}
+
+.searchOutputDiv{
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 170px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-color: yellow; */
+    padding-left: -10%;
+}
+.mainDiv{
+    margin-top: 0%;
+    height:500px;
+    width:1400px;
+    background-color:white;
+    border:2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+}
+/* ////////////////////////////////Slider css //////////////////////////////////////////////////// */
+
+.SliderDiv{
+    margin-top: 6%;
+    height:50px;
+    width:350px;
+    border-radius: 10px;
+    margin-left: -45%;
+}
+.SliderPage{
+
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -4%;
+}
+
+@media screen and (max-width: 768px){
+    .maiSection{
+        margin-top: 40%;
+        height: 130vh;
+        width: 390px;
+    }
+    .BacgroundImageDiv{
+        margin-top: -37%;
+        border: 0.2px solid black ;
+        background-size: cover;
+        height:300px;
+        width: 400px;
+        background-image: url('https://t3.ftcdn.net/jpg/02/72/82/76/360_F_272827654_0WRhY0088bBG7VW3tBCwA8yD0hudB4j1.jpg');
+    }
+    .inputDiv{
+        height: 40px;
+        width: 360px;
+        display:flex ;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .SearchDiv{
+        border-radius: 10px ;
+        height:200px;
+        width:380px;
+        background-color:rgb(222, 180, 187);
+        margin-left:2%;
+    }
+
+    .pTag1{
+        margin-left:12%;
+        margin-top:4%;
+        font-size: 18px;
+    }
+    .SecondimgAndInputDiv{
+        height: 80px;
+        width: 100px;
+        background-color: white;
+        border-radius: 10px ;
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+
+    .inputOne{
+        height:30px;
+        width:350px;
+        margin-left:0%;
+        margin-top:22%;
+        border-radius:10px;
+        border:none;
+        box-shadow:1px 1px 1px 1px black
+    }
+
+    .SliderPage{
+        
+        height: 100px;
+        width: 340px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 24%;
+        border: 1px solid black;
+    }
+    .SliderDiv{
+        margin-top: -370%;
+        height:50px;
+        width:350px;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    .mainDiv{
+        margin-left: 0%;
+        margin-top:0%;
+        height:1100px;
+        width:1400px;
+        background-color:white;
+        border:0px solid black;
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .inputSecondDiv{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1100px;
+        width: 100%;
+        border: 2px solid black ;
+        background-color: green;
+        margin-top: 70%;
+        margin-left:0;
+    }
+    .searchOutputDiv{
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-left: 0%;
+        height: 170px;
+        width: 350px;
+        border: 2px solid black;
+        /* background-color: yellow; */
+        padding-left: -10%;
+    }
+
+    .footer{
+        margin-top: 155%;
+        height: 80px;
+        width: 360px;
+        border: 1px solid black;
+        background-color: rgb(37, 52, 37)
+    }
+    .Copyright {
+        margin-top: 8%;
+        color: white;
+    }
+}
+

@@ -87,7 +87,7 @@ function Search() {
         {searchResults.length > 0 ? (
           searchResults.map(result => (
             <div key={result.id} className="searchOutputDiv">
-              <p>{result.name}</p>
+              <p >{result.name}</p>
               <i class="fa-solid fa-location-dot" style={{color:"orangered",marginLeft:"1%",fontSize:"20px"}}></i><p className="praSeven"> {result.number}</p><br/>
               <i class="fa-solid fa-phone" style={{color:"orangered",marginTop:"-1%",marginLeft:"1%"}}></i> <span className="number"> +91 (905)777-888</span>
               <div className="IconAndBtnDiv" >

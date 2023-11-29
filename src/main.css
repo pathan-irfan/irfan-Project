@@ -4,6 +4,7 @@
     width: auto;
 }
 .BacgroundImageDiv{
+    margin-top: 0%;
     border: 0.2px solid black ;
     background-size: cover;
     height:410px;
@@ -22,7 +23,7 @@
     margin-top: -6%;
 
     height: 80px;
-    width: auto;
+    width: 100%;
     border: 1px solid black;
     background-color: rgb(37, 52, 37)
 }
@@ -33,12 +34,14 @@
 /* ////////////////////////////////cardcss //////////////////////////////////////////////////// */
 
 .praSeven{
-    font-size: 1px;
+
+    font-size: 15px;
     margin-left: 10%;
-    margin-top: -5%;
+    margin-top: -8%;
 }
 .number{
-    margin: 5%;
+
+    margin-top: -50%;
     font-size: 10px;
 }
 .IconAndBtnDiv{
@@ -101,7 +104,7 @@
     background-color: white;
     border-radius: 10px ;
     margin-left: 3%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .BackgroundImg{
     height:30px;
@@ -109,7 +112,7 @@
 }
 .pTag1{
     margin-left:33%;
-    margin-top:-19%;
+    margin-top:-17%;
 }
 .inputOne{
     height:30px;
@@ -125,8 +128,7 @@
     flex-wrap: wrap;
     height: 500px;
     width: 100%;
-    border: 2px solid black ;
-    /* background-color: green; */
+    border: 0px solid black ;
     margin-top: 22%;
     margin-left: -61%;
 }
@@ -168,20 +170,27 @@
     margin-top: -4%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .maiSection{
         margin-top: 40%;
         height: 130vh;
         width: 390px;
+        margin-left: 10%;
     }
     .BacgroundImageDiv{
+        margin-left: -9%;
         margin-top: -37%;
         border: 0.2px solid black ;
         background-size: cover;
         height:300px;
-        width: 400px;
+        width: 410px;
         background-image: url('https://t3.ftcdn.net/jpg/02/72/82/76/360_F_272827654_0WRhY0088bBG7VW3tBCwA8yD0hudB4j1.jpg');
     }
+    .imgAndInputDiv{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+      }
     .inputDiv{
         height: 40px;
         width: 360px;
@@ -194,28 +203,33 @@
         height:200px;
         width:380px;
         background-color:rgb(222, 180, 187);
-        margin-left:2%;
+        margin-left:13%;
+    }
+
+    .BackgroundImg{
+        height:30px;
+        margin-top:30%
     }
 
     .pTag1{
-        margin-left:12%;
+        margin-left:8%;
         margin-top:4%;
-        font-size: 18px;
+        font-size: 20px;
     }
     .SecondimgAndInputDiv{
-        height: 80px;
+        height: 85px;
         width: 100px;
         background-color: white;
         border-radius: 10px ;
         margin-left: 35%;
-        margin-top: 15%;
+        margin-top: 8%;
     }
 
     .inputOne{
         height:30px;
-        width:350px;
-        margin-left:0%;
-        margin-top:22%;
+        width:400px;
+        margin-left:-3%;
+        margin-top:23%;
         border-radius:10px;
         border:none;
         box-shadow:1px 1px 1px 1px black
@@ -224,25 +238,25 @@
     .SliderPage{
         
         height: 100px;
-        width: 340px;
-        background-color: white;
+        width: 390px;
+        background-color: rgba(170, 188, 203, 0.62);
         border-radius: 20px;
-        margin-top: 24%;
+        margin-top: 27%;
         border: 1px solid black;
     }
     .SliderDiv{
-        margin-top: -370%;
+        margin-top: -375%;
         height:50px;
-        width:350px;
+        width:400px;
         border-radius: 10px;
-        margin-left: 0%;
+        margin-left: 14%;
     }
     .mainDiv{
-        margin-left: 0%;
+        margin-left: -20%;
         margin-top:0%;
         height:1100px;
-        width:1400px;
-        background-color:white;
+        width:500px;
+        /* background-color:rgb(224, 9, 9); */
         border:0px solid black;
         display:flex;
         flex-wrap:wrap;
@@ -252,33 +266,44 @@
         display: flex;
         flex-wrap: wrap;
         height: 1100px;
-        width: 100%;
-        border: 2px solid black ;
-        background-color: green;
+        width: 67%;
+        /* border: 2px solid black ; */
+        background-color: rgb(23, 0, 128);
         margin-top: 70%;
         margin-left:0;
     }
     .searchOutputDiv{
         border-radius: 10px;
         margin-top: 2%;
-        margin-left: 0%;
-        height: 170px;
-        width: 350px;
+        margin-left: -3%;
+        height: 180px;
+        width: 400px;
         border: 2px solid black;
         /* background-color: yellow; */
         padding-left: -10%;
     }
 
     .footer{
-        margin-top: 155%;
+        margin-left: 1%;
+        margin-top: 110%;
         height: 80px;
-        width: 360px;
-        border: 1px solid black;
+        width: auto;
+        /* border: 1px solid black; */
         background-color: rgb(37, 52, 37)
     }
     .Copyright {
         margin-top: 8%;
         color: white;
     }
-}
 
+    .praSeven{
+        font-size: 15px;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+    .number{
+
+        margin: 5%;
+        font-size: 15px;
+    }
+}

@@ -25,14 +25,15 @@
 
 @media (max-width:786px){
     .header{
+        margin-left: 2%;
         height: 50px;
-        width: 395px;
+        width: 420px;
         border: 1px solid black ;
         box-shadow: 1px 1px 1px 2px black;
     }
 
     .TikImg{
-        height:40px;
+        height:30px;
         margin-left:2%
     }
     .ImgAndButtonDiv{
@@ -41,9 +42,10 @@
     }
     
     .LoginBtn{
-        height:40px;
+        margin-top: 2%;
+        height:30px;
         width:80px;
-        margin-left:190%;
+        margin-left:285%;
         background-color:white;
         color:orangered;
         border-radius:10px;

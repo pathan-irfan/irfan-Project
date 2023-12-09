@@ -2,6 +2,7 @@
     margin-top: 2%;
     height: 130vh;
     width: auto;
+    /* background-color: red; */
 }
 .BacgroundImageDiv{
     margin-top: 0%;
@@ -20,7 +21,7 @@
 }
 /* ////////////////////////////////footer //////////////////////////////////////////////////// */
 .footer{
-    margin-top: -6%;
+    margin-top: 7.2%;
 
     height: 80px;
     width: 100%;
@@ -178,16 +179,17 @@
         margin-left: 10%;
     }
     .BacgroundImageDiv{
-        margin-left: -9%;
-        margin-top: -37%;
+        margin-left: -13%;
+        margin-top: -47%;
         border: 0.2px solid black ;
         background-size: cover;
         height:300px;
-        width: 410px;
+        width: 507px;
         background-image: url('https://t3.ftcdn.net/jpg/02/72/82/76/360_F_272827654_0WRhY0088bBG7VW3tBCwA8yD0hudB4j1.jpg');
     }
     .imgAndInputDiv{
-        width: 400px;
+        margin-left:0%;
+        width: 460px;
         display: flex;
         flex-direction: column;
       }
@@ -201,9 +203,9 @@
     .SearchDiv{
         border-radius: 10px ;
         height:200px;
-        width:380px;
+        width:580px;
         background-color:rgb(222, 180, 187);
-        margin-left:13%;
+        margin-left:40%;
     }
 
     .BackgroundImg{
@@ -227,9 +229,9 @@
 
     .inputOne{
         height:30px;
-        width:400px;
+        width:492px;
         margin-left:-3%;
-        margin-top:23%;
+        margin-top:20%;
         border-radius:10px;
         border:none;
         box-shadow:1px 1px 1px 1px black
@@ -238,18 +240,18 @@
     .SliderPage{
         
         height: 100px;
-        width: 390px;
+        width: 460px;
         background-color: rgba(170, 188, 203, 0.62);
         border-radius: 20px;
         margin-top: 27%;
         border: 1px solid black;
     }
     .SliderDiv{
-        margin-top: -375%;
+        margin-top: -376%;
         height:50px;
-        width:400px;
+        width:470px;
         border-radius: 10px;
-        margin-left: 14%;
+        margin-left: 40%;
     }
     .mainDiv{
         margin-left: -20%;
@@ -277,22 +279,22 @@
         margin-top: 2%;
         margin-left: -3%;
         height: 180px;
-        width: 400px;
+        width: 500px;
         border: 2px solid black;
         /* background-color: yellow; */
         padding-left: -10%;
     }
 
     .footer{
-        margin-left: 1%;
-        margin-top: 110%;
-        height: 80px;
-        width: auto;
+        margin-left: -7%;
+        margin-top: 1%;
+        height: 70px;
+        width: 110%;
         /* border: 1px solid black; */
         background-color: rgb(37, 52, 37)
     }
     .Copyright {
-        margin-top: 8%;
+        margin-top: 5%;
         color: white;
     }
 

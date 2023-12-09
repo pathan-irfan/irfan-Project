@@ -17,9 +17,9 @@ return(
 
         </div>
     </div>
-    <footer className="footer">
+    {/* <footer className="footer">
         <center>	<p className="Copyright "> &#169; Copyright TikMe lnc.|Privacy policy </p></center>
-    </footer>
+    </footer> */}
 
     </>
 )

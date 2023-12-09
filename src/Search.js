@@ -171,6 +171,9 @@ function Search() {
               <a href="https://tikme.co/" className="OrderNowBtn1">  <button style={{background:"rgba(33, 26, 172, 0.781)",color:"white"}} >pre order Now</button></a> 
                 </div>
               </div>
+              <footer className="footer">
+        <center>	<p className="Copyright "> &#169; Copyright TikMe lnc.|Privacy policy </p></center>
+    </footer>
           </div>
         )}
       </div>
